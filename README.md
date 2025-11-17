@@ -19,7 +19,24 @@ El propósito de este documento es registrar y explicar los ejercicios realizado
 #### Enunciado del Problema
 Calcular los determinantes de las siguientes matrices 2×2:
 
-$A = \begin{pmatrix} 5 & 2 \\ 3 & 1 \end{pmatrix}, \quad B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}, \quad C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}, \quad D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}$
+$$
+A = \left(\begin{array}{cc}
+5 & 2 \\
+3 & 1 \\
+\end{array}\right), \quad 
+B = \left(\begin{array}{cc}
+-1 & 4 \\
+2 & -8 \\
+\end{array}\right), \quad 
+C = \left(\begin{array}{cc}
+6 & 9 \\
+2 & 3 \\
+\end{array}\right), \quad 
+D = \left(\begin{array}{cc}
+0 & 5 \\
+-5 & 0 \\
+\end{array}\right)
+$$
 
 #### Solución o Respuesta
 - **Determinante de A:** -1
