@@ -38,13 +38,13 @@ D = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-#### Solución o Respuesta
+#### Respuesta
 - **Determinante de A:** -1
 - **Determinante de B:** 0
 - **Determinante de C:** 0
 - **Determinante de D:** 25
 
-#### Proceso/Procedimiento
+#### Procedimiento
 1. **Fórmula del determinante 2×2:** Para una matriz \( \left(\begin{array}{cc} a & b \\ c & d \end{array}\right) \), el determinante es \( ad - bc \)
 
 <ol start="2">
@@ -53,6 +53,8 @@ $$
   <li><strong>Cálculo para matriz C:</strong> $\det(C) = (6 \times 3) - (9 \times 2) = 18 - 18 = 0$</li>
   <li><strong>Cálculo para matriz D:</strong> $\det(D) = (0 \times 0) - (5 \times -5) = 0 - (-25) = 0 + 25 = 25$</li>
 </ol>
+
+---
 
 ### Ejercicio 2: Regla de Sarrus para Determinantes 3×3
 
@@ -71,3 +73,48 @@ F = \left(\begin{array}{ccc}
 3 & 2 & -2 \\
 \end{array}\right)
 $$
+
+#### Procedimiento
+
+## Cálculo para la Matriz E
+
+Para calcular el determinante de E, $\det(E)$, aumentamos la matriz repitiendo las primeras dos columnas:
+
+$$
+\det(E) = \left| \begin{array}{ccc|cc}
+1 & 2 & 3 & 1 & 2 \\
+0 & 1 & 4 & 0 & 1 \\
+5 & 6 & 0 & 5 & 6
+\end{array} \right|
+$$
+
+**1. Suma de diagonales positivas:**
+$(1 \times 1 \times 0) + (2 \times 4 \times 5) + (3 \times 0 \times 6) = 0 + 40 + 0 = 40$
+
+**2. Suma de diagonales negativas:**
+$(3 \times 1 \times 5) + (1 \times 4 \times 6) + (2 \times 0 \times 0) = 15 + 24 + 0 = 39$
+
+**3. Resultado:**
+$\det(E) = (\text{Suma positiva}) - (\text{Suma negativa}) = 40 - 39 = 1$
+
+
+## Cálculo para la Matriz F
+
+Para calcular el determinante de F, $\det(F)$, repetimos el proceso:
+
+$$
+\det(F) = \left| \begin{array}{ccc|cc}
+2 & -1 & 3 & 2 & -1 \\
+1 & 4 & 0 & 1 & 4 \\
+3 & 2 & -2 & 3 & 2
+\end{array} \right|
+$$
+
+**1. Suma de diagonales positivas :**
+$(2 \times 4 \times -2) + (-1 \times 0 \times 3) + (3 \times 1 \times 2) = -16 + 0 + 6 = -10$
+
+**2. Suma de diagonales negativas :**
+$(3 \times 4 \times 3) + (2 \times 0 \times 2) + (-1 \times 1 \times -2) = 36 + 0 + 2 = 38$
+
+**3. Resultado:**
+$\det(F) = (\text{Suma positiva}) - (\text{Suma negativa}) = -10 - 38 = -48$
