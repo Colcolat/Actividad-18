@@ -143,7 +143,12 @@ $$
 
 #### Procedimiento
 
-   $$
-   \det(G) = g_{12}C_{12} + g_{22}C_{22} + g_{32}C_{32}
-   $$
-
+1. **Identificar los signos de los cofactores:**
+   
+$$
+\left(\begin{array}{ccc}
++ & - & + \\
+- & + & - \\
++ & - & + \\
+\end{array}\right)
+$$
