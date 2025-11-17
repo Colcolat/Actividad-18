@@ -74,6 +74,10 @@ F = \left(\begin{array}{ccc}
 \end{array}\right)
 $$
 
+#### Respuesta
+- **Determinante de E:** 1
+- **Determinante de F:** -48
+
 #### Procedimiento
 
 ## Cálculo para la Matriz E
