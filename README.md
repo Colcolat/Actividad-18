@@ -145,10 +145,10 @@ $$
 
 1. **Identificar los signos de los cofactores:**
    
-$$
-\left(\begin{array}{ccc}
-+ & - & + \\
-- & + & - \\
-+ & - & + \\
-\end{array}\right)
-$$
+  $$
+  \left(\begin{array}{ccc}
+  + & - & + \\
+  - & + & - \\
+  + & - & + \\
+  \end{array}\right)
+  $$
