@@ -152,3 +152,7 @@ $$
   + & - & + \\
   \end{array}\right)
   $$
+
+   $$
+   \det(G) = (G_{12} \times C_{12}) + (G_{22} \times C_{22}) + (G_{32} \times C_{32})
+   $$
