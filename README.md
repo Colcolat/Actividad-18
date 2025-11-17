@@ -145,14 +145,42 @@ $$
 
 1. **Identificar los signos de los cofactores:**
    
-  $$
-  \left(\begin{array}{ccc}
-  + & - & + \\
-  - & + & - \\
-  + & - & + \\
-  \end{array}\right)
-  $$
+   $$
+   \left(\begin{array}{ccc}
+   + & - & + \\
+   - & + & - \\
+   + & - & + \\
+   \end{array}\right)
+   $$
 
    $$
    \det(G) = (G_{12} \times C_{12}) + (G_{22} \times C_{22}) + (G_{32} \times C_{32})
+   $$
+
+**Cálculo de los términos:**
+
+   **Término 1 $(G_{12})$:**
+   - $G_{12} = 0$
+   - $0 \times C_{12} = 0$ (No necesitamos calcular el cofactor)
+
+   **Término 3 $(G_{32})$:**
+   - $G_{32} = 0$ 
+   - $0 \times C_{32} = 0$ (No necesitamos calcular el cofactor)
+
+   **Término 2 $(G_{22})$:**
+   - $G_{22} = 3$
+   - El signo de la posición (2,2) es **Positivo** (+)
+   - El menor $M_{22}$ se obtiene eliminando la fila 2 y la columna 2:
+     $$
+     M_{22} = \det \left(\begin{array}{cc}
+     1 & 2 \\
+     2 & 1 \\
+     \end{array}\right)
+     $$
+   - Calculamos el menor: $(1 \times 1) - (2 \times 2) = 1 - 4 = -3$
+   - El término completo es: $(\text{signo}) \times (\text{valor}) \times (\text{menor}) = (+) \times (3) \times (-3) = -9$
+
+5. **Resultado final:**
+   $$
+   \det(G) = 0 + (-9) + 0 = -9
    $$
