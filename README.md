@@ -161,11 +161,11 @@ $$
 
    **Término 1 $(G_{12})$:**
    - $G_{12} = 0$
-   - $0 \times C_{12} = 0$ (No necesitamos calcular el cofactor)
+   - $0 \times C_{12} = 0$ 
 
    **Término 3 $(G_{32})$:**
    - $G_{32} = 0$ 
-   - $0 \times C_{32} = 0$ (No necesitamos calcular el cofactor)
+   - $0 \times C_{32} = 0$ )
 
    **Término 2 $(G_{22})$:**
    - $G_{22} = 3$
@@ -177,7 +177,7 @@ $$
      2 & 1 \\
      \end{array}\right)
      $$
-   - Calculamos el menor: $(1 \times 1) - (2 \times 2) = 1 - 4 = -3$
+   - Se calcula el menor: $(1 \times 1) - (2 \times 2) = 1 - 4 = -3$
    - El término completo es: $(\text{signo}) \times (\text{valor}) \times (\text{menor}) = (+) \times (3) \times (-3) = -9$
 
 5. **Resultado final:**
