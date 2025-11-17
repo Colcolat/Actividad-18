@@ -53,3 +53,21 @@ $$
   <li><strong>Cálculo para matriz C:</strong> $\det(C) = (6 \times 3) - (9 \times 2) = 18 - 18 = 0$</li>
   <li><strong>Cálculo para matriz D:</strong> $\det(D) = (0 \times 0) - (5 \times -5) = 0 - (-25) = 0 + 25 = 25$</li>
 </ol>
+
+### Ejercicio 2: Regla de Sarrus para Determinantes 3×3
+
+#### Enunciado del Problema
+Usar la regla de Sarrus para calcular los determinantes de las matrices 3×3:
+
+$$
+E = \left(\begin{array}{ccc}
+1 & 2 & 3 \\
+0 & 1 & 4 \\
+5 & 6 & 0 \\
+\end{array}\right), \quad 
+F = \left(\begin{array}{ccc}
+2 & -1 & 3 \\
+1 & 4 & 0 \\
+3 & 2 & -2 \\
+\end{array}\right)
+$$
