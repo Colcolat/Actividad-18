@@ -122,3 +122,33 @@ $(3 \times 4 \times 3) + (2 \times 0 \times 2) + (-1 \times 1 \times -2) = 36 + 
 
 **3. Resultado:**
 $\det(F) = (\text{Suma positiva}) - (\text{Suma negativa}) = -10 - 38 = -48$
+
+---
+
+### Ejercicio 3: Método de Cofactores para Determinantes 3×3
+
+#### Enunciado del Problema
+Calcular el determinante usando el método de cofactores (expandir por la fila o columna más conveniente):
+
+$$
+G = \left(\begin{array}{ccc}
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
+2 & 0 & 1 \\
+\end{array}\right)
+$$
+
+#### Respuesta
+- **Determinante de G:** -9
+
+#### Procedimiento
+
+**1. Identificar los signos de los cofactores:**
+Para una matriz 3x3, la "matriz de signos" es:
+$$
+\begin{pmatrix}
++ & - & + \\
+- & + & - \\
++ & - & +
+\end{pmatrix}
+$$
