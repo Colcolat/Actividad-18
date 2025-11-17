@@ -47,22 +47,22 @@ $$
 #### Proceso/Procedimiento
 1. **Fórmula del determinante 2×2:** Para una matriz \( \left(\begin{array}{cc} a & b \\ c & d \end{array}\right) \), el determinante es \( ad - bc \)
 
-2. **Cálculo para matriz A:**
-   $$
-   \det(A) = (5 \times 1) - (2 \times 3) = 5 - 6 = -1
-   $$
+**Cálculo para matriz A:**
+$$
+\det(A) = (5 \times 1) - (2 \times 3) = 5 - 6 = -1
+$$
 
-3. **Cálculo para matriz B:**
-   $$
-   \det(B) = (-1 \times -8) - (4 \times 2) = 8 - 8 = 0
-   $$
+**Cálculo para matriz B:**
+$$
+\det(B) = (-1 \times -8) - (4 \times 2) = 8 - 8 = 0
+$$
 
-4. **Cálculo para matriz C:**
-   $$
-   \det(C) = (6 \times 3) - (9 \times 2) = 18 - 18 = 0
-   $$
+**Cálculo para matriz C:**
+$$
+\det(C) = (6 \times 3) - (9 \times 2) = 18 - 18 = 0
+$$
 
-5. **Cálculo para matriz D:**
-   $$
-   \det(D) = (0 \times 0) - (5 \times -5) = 0 - (-25) = 0 + 25 = 25
-   $$
+**Cálculo para matriz D:**
+$$
+\det(D) = (0 \times 0) - (5 \times -5) = 0 - (-25) = 0 + 25 = 25
+$$
