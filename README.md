@@ -144,7 +144,8 @@ $$
 #### Procedimiento
 
 **1. Identificar los signos de los cofactores:**
-Para una matriz 3x3, la "matriz de signos" es:
+
+
 $$
 \begin{pmatrix}
 + & - & + \\
