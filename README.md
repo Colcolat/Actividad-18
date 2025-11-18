@@ -183,3 +183,21 @@ $$
 Dadas las matrices A y B, verificar que:
 - $\det(AB) = \det(A) \cdot \det(B)$
 - $\det(A^T) = \det(A)$
+
+$$
+A = \left(\begin{array}{cc}
+2 & 1 \\
+1 & 3 \\
+\end{array}\right), \quad 
+B = \left(\begin{array}{cc}
+1 & 2 \\
+3 & 1 \\
+\end{array}\right)
+$$
+
+#### Respuesta
+- **$\det(A) = 5$**
+- **$\det(B) = -5$**
+- **$\det(AB) = -25$**
+- **$\det(A^T) = 5$**
+
