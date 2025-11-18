@@ -232,3 +232,25 @@ AB = | 2 1 | × | 1 2 | = | (2×1)+(1×3) (2×2)+(1×1) | = | 2+3 4+1 | = | 5 5 
    \det(A) \cdot \det(B) = 5 \times (-5) = -25
    $$
    **$\det(AB) = -25 = \det(A) \cdot \det(B)$**
+
+6. **Calcular $A^T$:**
+   $$
+   A^T = \left(\begin{array}{cc}
+   2 & 1 \\
+   1 & 3 \\
+   \end{array}\right)^T
+   = \left(\begin{array}{cc}
+   2 & 1 \\
+   1 & 3 \\
+   \end{array}\right)
+   $$
+
+7. **Calcular $\det(A^T)$:**
+   $$
+   \det(A^T) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+   $$
+
+8. **Verificar la propiedad:**
+   **$\det(A^T) = 5 = \det(A)$**
+
+   
