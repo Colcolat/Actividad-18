@@ -223,30 +223,17 @@ AB = | 2 1 | × | 1 2 | = | (2×1)+(1×3) (2×2)+(1×1) | = | 2+3 4+1 | = | 5 5 
 | 1 3 | | 3 1 | | (1×1)+(3×3) (1×2)+(3×1) | | 1+9 2+3 | | 10 5 |
 
 4. **Calcular $\det(AB)$:**
-   
-   $$
-   \det(AB) = (5 \times 5) - (5 \times 10) = 25 - 50 = -25
-   $$
+
+   det(AB) = (5 × 5) - (5 × 10) = 25 - 50 = -25
 
 6. **Verificar la propiedad:**
    
-   $$
-   \det(A) \cdot \det(B) = 5 \times (-5) = -25
-   $$
-   **$\det(AB) = -25 = \det(A) \cdot \det(B)$**
+det(A) × det(B) = 5 × (-5) = -25
 
 7. **Calcular $A^T$:**
    
-   $$
-   A^T = \left(\begin{array}{cc}
-   2 & 1 \\
-   1 & 3 \\
-   \end{array}\right)^T
-   = \left(\begin{array}{cc}
-   2 & 1 \\
-   1 & 3 \\
-   \end{array}\right)
-   $$
+    | 2  1 |T    | 2  1 |
+    A^T = | 1 3 | = | 1 3 |
 
 8. **Calcular $\det(A^T)$:**
    
@@ -255,6 +242,7 @@ AB = | 2 1 | × | 1 2 | = | (2×1)+(1×3) (2×2)+(1×1) | = | 2+3 4+1 | = | 5 5 
    $$
 
 10. **Verificar la propiedad:**
+
    **$\det(A^T) = 5 = \det(A)$**
 
    
