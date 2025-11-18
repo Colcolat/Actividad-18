@@ -219,28 +219,8 @@ $$
 
 3. **Calcular AB:**
 
-   $$
-   AB = \left(\begin{array}{cc}
-   2 & 1 \\
-   1 & 3 \\
-   \end{array}\right)
-   \left(\begin{array}{cc}
-   1 & 2 \\
-   3 & 1 \\
-   \end{array}\right)
-   = \left(\begin{array}{cc}
-   (2 \times 1) + (1 \times 3) & (2 \times 2) + (1 \times 1) \\
-   (1 \times 1) + (3 \times 3) & (1 \times 2) + (3 \times 1) \\
-   \end{array}\right)
-   = \left(\begin{array}{cc}
-   2 + 3 & 4 + 1 \\
-   1 + 9 & 2 + 3 \\
-   \end{array}\right)
-   = \left(\begin{array}{cc}
-   5 & 5 \\
-   10 & 5 \\
-   \end{array}\right)
-   $$
+AB = | 2 1 | × | 1 2 | = | (2×1)+(1×3) (2×2)+(1×1) | = | 2+3 4+1 | = | 5 5 |
+| 1 3 | | 3 1 | | (1×1)+(3×3) (1×2)+(3×1) | | 1+9 2+3 | | 10 5 |
 
 4. **Calcular $\det(AB)$:**
    $$
