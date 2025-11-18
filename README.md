@@ -218,6 +218,7 @@ $$
 **Verificación de $\det(AB) = \det(A) \cdot \det(B)$**
 
 3. **Calcular AB:**
+
    $$
    AB = \left(\begin{array}{cc}
    2 & 1 \\
@@ -228,12 +229,12 @@ $$
    3 & 1 \\
    \end{array}\right)
    = \left(\begin{array}{cc}
-   (2\times1)+(1\times3) & (2\times2)+(1\times1) \\
-   (1\times1)+(3\times3) & (1\times2)+(3\times1) \\
+   (2 \times 1) + (1 \times 3) & (2 \times 2) + (1 \times 1) \\
+   (1 \times 1) + (3 \times 3) & (1 \times 2) + (3 \times 1) \\
    \end{array}\right)
    = \left(\begin{array}{cc}
-   2+3 & 4+1 \\
-   1+9 & 2+3 \\
+   2 + 3 & 4 + 1 \\
+   1 + 9 & 2 + 3 \\
    \end{array}\right)
    = \left(\begin{array}{cc}
    5 & 5 \\
