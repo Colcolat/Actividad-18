@@ -201,3 +201,53 @@ $$
 - **$\det(AB) = -25$**
 - **$\det(A^T) = 5$**
 
+#### Procedimiento
+
+** Cálculo de determinantes**
+
+1. **Determinante de A:**
+   $$
+   \det(A) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+   $$
+
+2. **Determinante de B:**
+   $$
+   \det(B) = (1 \times 1) - (2 \times 3) = 1 - 6 = -5
+   $$
+
+**Verificación de $\det(AB) = \det(A) \cdot \det(B)$**
+
+3. **Calcular AB:**
+   $$
+   AB = \left(\begin{array}{cc}
+   2 & 1 \\
+   1 & 3 \\
+   \end{array}\right)
+   \left(\begin{array}{cc}
+   1 & 2 \\
+   3 & 1 \\
+   \end{array}\right)
+   = \left(\begin{array}{cc}
+   (2\times1)+(1\times3) & (2\times2)+(1\times1) \\
+   (1\times1)+(3\times3) & (1\times2)+(3\times1) \\
+   \end{array}\right)
+   = \left(\begin{array}{cc}
+   2+3 & 4+1 \\
+   1+9 & 2+3 \\
+   \end{array}\right)
+   = \left(\begin{array}{cc}
+   5 & 5 \\
+   10 & 5 \\
+   \end{array}\right)
+   $$
+
+4. **Calcular $\det(AB)$:**
+   $$
+   \det(AB) = (5 \times 5) - (5 \times 10) = 25 - 50 = -25
+   $$
+
+5. **Verificar la propiedad:**
+   $$
+   \det(A) \cdot \det(B) = 5 \times (-5) = -25
+   $$
+   **$\det(AB) = -25 = \det(A) \cdot \det(B)$**
