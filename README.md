@@ -237,9 +237,9 @@ det(A) × det(B) = 5 × (-5) = -25
 
 8. **Calcular $\det(A^T)$:**
    
-   $$
-   \det(A^T) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
-   $$
+$$
+\det(A^T) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+$$
 
 10. **Verificar la propiedad:**
 
