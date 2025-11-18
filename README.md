@@ -175,3 +175,11 @@ $$
 \det(G) = 0 + (-9) + 0 = -9
 $$
 
+---
+
+### Ejercicio 4: Verificar Propiedades de los Determinantes
+
+#### Enunciado del Problema
+Dadas las matrices A y B, verificar que:
+- $\det(AB) = \det(A) \cdot \det(B)$
+- $\det(A^T) = \det(A)$
