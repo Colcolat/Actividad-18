@@ -206,14 +206,16 @@ $$
 ** Cálculo de determinantes**
 
 1. **Determinante de A:**
-   $$
-   \det(A) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
-   $$
+   
+$$
+\det(A) = (2 \times 3) - (1 \times 1) = 6 - 1 = 5
+$$
 
-2. **Determinante de B:**
-   $$
-   \det(B) = (1 \times 1) - (2 \times 3) = 1 - 6 = -5
-   $$
+3. **Determinante de B:**
+   
+$$
+\det(B) = (1 \times 1) - (2 \times 3) = 1 - 6 = -5
+$$
 
 **Verificación de $\det(AB) = \det(A) \cdot \det(B)$**
 
