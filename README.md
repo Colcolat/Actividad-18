@@ -247,4 +247,57 @@ $$
 
    **$\det(A^T) = 5 = \det(A)$**
 
-   
+---
+
+### Ejercicio 5: Aplicación Geométrica de los Determinantes
+
+#### Enunciado del Problema
+Dados los vectores $\vec{u} = (3, 2)$ y $\vec{v} = (1, 4)$:
+a) Calcula el área del paralelogramo que forman  
+b) ¿Cambia el área si intercambias los vectores?  
+c) ¿Qué representa el signo del determinante?
+
+#### Solución o Respuesta
+- **a) Área del paralelogramo: 10 unidades 
+- **b) El área si cambia al intercambiar vectores
+- **c) El signo indica la orientación de los vectores
+
+#### Procedimiento
+
+**Cálculo del área del paralelogramo**
+
+1. **Matriz formada por los vectores:**
+
+$$
+M = \left(\begin{array}{cc}
+3 & 2 \\
+1 & 4 \\
+\end{array}\right)
+$$
+
+2. **Cálculo del determinante:**
+
+$$
+\det(M) = (3 \times 4) - (2 \times 1) = 12 - 2 = 10
+$$
+
+3. **Matriz con vectores intercambiados:**
+
+$$
+M' = \left(\begin{array}{cc}
+1 & 4 \\
+3 & 2 \\
+\end{array}\right)
+$$
+
+4. **Cálculo del nuevo determinante:**
+
+$$
+\det(M') = (1 \times 2) - (4 \times 3) = 2 - 12 = -10
+$$
+
+7. **Significado del signo:**
+   - **Signo positivo (+10):** Los vectores están en orientación antihoraria (sentido positivo)
+   - **Signo negativo (-10):** Los vectores están en orientación horaria (sentido negativo)
+   - El *determinante* representa el área
+   - El *signo* representa la orientación en el plano
